@@ -1,2 +1,2 @@
 # WeatherCast-Website-Project
-A simple page representing weather applications.
+A simple page representing weather application.
