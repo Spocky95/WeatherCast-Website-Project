@@ -375,4 +375,12 @@ nav.menu-btn {
     margin-top: 7em;
     margin-left: 7em;
   }
+  .testimonials-section ul {
+    display: flex;
+    justify-content: center;
+  }
+  .testimonials-section ul li {
+    margin: 0 2em;
+    max-width: 15em;
+  }
 }/*# sourceMappingURL=main.css.map */

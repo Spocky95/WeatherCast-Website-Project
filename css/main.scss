@@ -120,7 +120,6 @@ ul {
         max-width: 40em;
         margin-bottom: 1em;
         
-        
     }
 }
 
@@ -477,6 +476,15 @@ nav.menu-btn {
         }
     }
 
+
+    .testimonials-section ul {
+        display: flex;
+        justify-content: center;
+        li {
+            margin: 0 2em;
+            max-width: 15em;
+        }
+    }
 
 
   }
