@@ -20,6 +20,10 @@ body {
 h3 {
   color: white;
   font-size: 2em;
+  white-space: nowrap;
+}
+h3 hr {
+  min-width: 5em;
 }
 
 section {
@@ -85,13 +89,14 @@ ul {
   border-radius: 2em;
   display: inline-block;
 }
-.hero .left-col .watch-video-cta {
+.hero .left-col .API_info {
   display: block;
   margin-top: 0.3em;
 }
 .hero img {
   margin-top: 2em;
   width: 100%;
+  height: 100%;
   max-width: 40em;
   margin-bottom: 1em;
 }
@@ -246,6 +251,31 @@ nav.menu-btn {
   display: block;
 }
 
+.card {
+  text-align: center;
+  background-color: white;
+  -o-border-image: linear-gradient(140deg, red, yellow, rgb(0, 174, 255)) 30;
+     border-image: linear-gradient(140deg, red, yellow, rgb(0, 174, 255)) 30;
+  border-width: 0.3em;
+  border-style: solid;
+  margin: 5em auto;
+  max-width: 500px;
+}
+.card img {
+  margin-top: 2em;
+  width: 20%;
+}
+.card p {
+  margin-bottom: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.card ul li {
+  list-style-type: disc;
+  text-align: left;
+  padding: 0.5em 0.5em;
+}
+
 @media only screen and (min-width: 800px) {
   .mobile-menu, .mobile-menu-exit {
     display: none;
@@ -304,6 +334,9 @@ nav.menu-btn {
     justify-content: center;
     margin: auto;
     margin: 5em;
+  }
+  .api-hero {
+    margin-left: 8em;
   }
   .left-col {
     min-width: 250px;
