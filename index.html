@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherCast</title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a class="logo" href="#">Weather<span>Cast</span></a>
+
+        <img
+          id="mobile-cta"
+          class="mobile-menu"
+          src="/images/menu.svg"
+          alt="Open-navigation"
+        />
+
+        <nav>
+          <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+          <ul class="primary-nav">
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#features">Feature</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="secondary-nav">
+            <li class="current"><a href="#">API</a></li>
+            <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="left-col">
+          <p class="subhead">Our App is <b>Reliable</b> & <b>Accurate</b></p>
+          <h1>The only weather app you will ever need.</h1>
+          <div class="hero-cta">
+            <a href="#" class="primary-cta">Try for Free</a>
+            <a href="#" class="watch-video-cta"
+              >Or try our API 🔹</a
+            >
+          </div>
+        </div>
+        <img
+          src="/images/hero-rain-img.png"
+          alt="hero-img"
+        />
+      </div>
+    </section>
+
+    <section id="features" class="features-section">
+      <div class="container">
+        <div class="features-section-left">
+          
+          <ul class="features-list">
+            <h3>Our App is:<hr></h3>
+            <li>Always Accurate</li>
+            <li>Widgets</li>
+            <li>Local weather radar</li>
+            <li>Weather Map Service</li>
+            <li>Notifications</li>
+            <li>Free API</li>
+          </ul>
+        </div>
+      </div>
+      <div class="features-section-right">
+        <img class="features-image" src="/images/oie_transparent.png" alt="">
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <ul>
+        <li>
+          <img src="/images/person.jpg" alt="" />
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint asperiores quo eveniet minus ad at doloribus tenetur, aliquid recusandae voluptatum veniam quidem nisi reiciendis. At a unde perspiciatis labore, aut nam voluptates ut quos? Fugiat voluptatibus facilis quasi accusamus, aut sint rem officiis aspernatur exercitationem vel? Culpa facere corporis voluptatum.
+          </blockquote>
+          <cite>-Bob Smith</cite>
+        </li>
+        <li>
+          <img src="/images/person.jpg" alt="" />
+          <blockquote>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde ad libero provident maiores aspernatur quod adipisci labore, nam explicabo vel fuga! Ipsam temporibus maiores exercitationem rerum facilis, eligendi, aliquam nihil provident, odit voluptas laudantium deserunt id sapiente consequuntur porro voluptatem! Soluta, rerum vitae in error provident tenetur quis accusantium autem?
+          </blockquote>
+          <cite>-Bob Smith</cite>
+        </li>
+        <li>
+          <img src="/images/person.jpg" alt="" />
+          <blockquote>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere amet tempore iure corrupti quisquam itaque unde, facilis fugit rerum recusandae consequuntur, possimus accusantium, eius ad neque molestias? Iure neque eius ut recusandae est cupiditate culpa commodi, amet, earum beatae numquam enim soluta fuga animi vero quae molestias dolore dicta facilis.
+          </blockquote>
+          <cite>-Bob Smith</cite>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="containter">
+        <div class="contact-left">
+          <h2>Contact</h2>
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" />
+
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your Massage"
+            ></textarea>
+            <input type="submit" class="send-massage-cta" value="Send Massage"></Input>
+          </form>
+        </div>
+        <div class="contact-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d312776.97970152093!2d20.781019944382027!3d52.23302686945125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sWarszawa!5e0!3m2!1spl!2spl!4v1664628402603!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <div class="author">
+      Visit my Github - <a href="https://github.com/Spocky95" target="_blank">https://github.com/Spocky95</a>
+    </div>
+
+    <script>
+      
+      const mobileBtn = document.getElementById('mobile-cta');
+      const nav = document.querySelector('nav');
+      const mobileBtnExit = document.getElementById('mobile-exit');
+
+      mobileBtn.addEventListener('click', () => {
+          nav.classList.add('menu-btn');
+      })
+
+      mobileBtnExit.addEventListener('click', () => {
+          nav.classList.remove('menu-btn');
+      })
+  </script>
+
+  </body>
+</html>

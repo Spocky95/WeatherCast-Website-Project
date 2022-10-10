@@ -1,0 +1,345 @@
+/*colors*/
+/*colors*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", sans-serif;
+  background-color: #F2F2F2;
+  margin: 0;
+  width: 100%;
+}
+
+.author {
+  text-align: center;
+  background-color: #20272E;
+  color: white;
+}
+
+h3 {
+  color: white;
+  font-size: 2em;
+}
+
+section {
+  padding: 3em 2em;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1em;
+}
+.navbar .logo {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7em;
+  font-weight: bolder;
+  margin-left: 0.5em;
+}
+.navbar .logo span {
+  color: #007AF3;
+  font-size: 1.1em;
+}
+.navbar nav {
+  display: none;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+.navbar .mobile-menu {
+  cursor: pointer;
+  border: #007AF3 0.1em solid;
+  border-radius: 0.5em;
+  padding: 0em 0.5em 0em 0.5em;
+}
+
+a {
+  color: #007AF3;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hero {
+  text-align: center;
+}
+.hero .left-col .subhead {
+  text-transform: uppercase;
+  color: gray;
+  letter-spacing: 0.1em;
+}
+.hero .left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.2em;
+  margin-top: 0.2em;
+}
+.hero .left-col .primary-cta {
+  background-color: #007AF3;
+  color: white;
+  padding: 0.6em 1.3em;
+  font-size: 1.2em;
+  border-radius: 2em;
+  display: inline-block;
+}
+.hero .left-col .watch-video-cta {
+  display: block;
+  margin-top: 0.3em;
+}
+.hero img {
+  margin-top: 2em;
+  width: 100%;
+  max-width: 40em;
+  margin-bottom: 1em;
+}
+
+.features-section {
+  background-color: #007AF3;
+}
+.features-section .container {
+  max-width: 50%;
+}
+
+.features-list {
+  margin: 0;
+  margin-top: 3em;
+}
+.features-list li {
+  margin-top: 1.2em;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  position: relative;
+  color: white;
+}
+.features-list li:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-image: url(/images/bullet.svg);
+  background-size: contain;
+  margin-right: 0.5em;
+  left: -1.5em;
+}
+
+.features-section-right {
+  text-align: center;
+}
+
+.features-image {
+  width: 100%;
+  margin-top: 1em;
+  padding-top: 1em;
+  max-width: 40em;
+  text-align: center;
+}
+
+.testimonials-section {
+  background-color: #F2F2F2;
+}
+.testimonials-section ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+.testimonials-section ul li {
+  max-width: 500px;
+  background-color: #007AF3;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 5em auto;
+  color: #F2F2F2;
+  box-shadow: 0.8em 0.8em 1em gray;
+}
+.testimonials-section ul li img {
+  width: 5em;
+  height: 5em;
+  border: 0.1em solid black;
+  border-radius: 3em;
+  margin-top: -4em;
+}
+
+.contact-section {
+  background-color: #20272E;
+  color: white;
+}
+.contact-section h2 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+.contact-section label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+.contact-section input, .contact-section textarea {
+  display: block;
+  margin-bottom: 1.5em;
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+input.send-massage-cta {
+  background-color: #007AF3;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border-radius: 5em;
+  border: none;
+  width: 10em;
+  cursor: pointer;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 20.8em;
+}
+
+nav {
+  position: fixed;
+  z-index: 99;
+  width: 70%;
+  left: 30%;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: #20272E;
+}
+nav .primary-nav {
+  margin-top: 4em;
+  margin-bottom: 0;
+}
+nav .primary-nav a {
+  color: white;
+}
+nav .primary-nav a:hover {
+  color: #007AF3;
+}
+nav .secondary-nav {
+  margin-top: 0;
+}
+nav .secondary-nav a {
+  color: gold;
+}
+nav .secondary-nav a:hover {
+  color: #007AF3;
+}
+nav li {
+  margin: 2em 0em 2em 0em;
+  font-size: 1.3em;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: 1.1em 1.2em 0em 0em;
+  cursor: pointer;
+  width: 1.8em;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+@media only screen and (min-width: 800px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    justify-content: unset;
+  }
+  .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar nav ul {
+    display: flex;
+    margin: 0px 0px;
+  }
+  .navbar nav a {
+    font-size: 1em;
+    padding: 0.1em 0.1em;
+  }
+  .navbar nav li {
+    margin: 0.3em 0em 0em 0em;
+    white-space: nowrap;
+  }
+  .navbar nav .primary-nav a {
+    margin-right: 0.5em;
+    color: #000;
+  }
+  .navbar nav .primary-nav a:hover {
+    color: #007AF3;
+  }
+  .navbar nav .secondary-nav a {
+    color: black;
+    margin: 0px 1em;
+  }
+  .navbar nav .secondary-nav a:hover {
+    color: #007AF3;
+  }
+  .navbar nav .secondary-nav .go-premium-cta {
+    color: #20272E;
+    border: #007AF3 0.1em solid;
+    border-radius: 3em;
+    margin-top: 0.1em;
+    padding: 0.1em 0.1em;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .hero .container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin: 5em;
+  }
+  .left-col {
+    min-width: 250px;
+    margin-top: 3em;
+    padding-right: 1em;
+    max-width: 500px;
+  }
+  .features-section {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .features-section-left .features-section-right {
+    display: flex;
+    justify-content: space-between;
+  }
+  .features-image {
+    margin-left: 10em;
+  }
+  .testimonials-section ul {
+    display: flex;
+    justify-content: center;
+  }
+  .testimonials-section ul li {
+    margin: 0 2em;
+    max-width: 15em;
+  }
+  .contact-section .containter {
+    display: flex;
+    justify-content: center;
+    margin: 0 10em;
+  }
+  .contact-section .containter .contact-right {
+    width: 40%;
+    height: 45%;
+    margin-top: 7em;
+    margin-left: 7em;
+  }
+}/*# sourceMappingURL=main.css.map */
