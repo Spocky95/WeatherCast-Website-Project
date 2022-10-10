@@ -120,7 +120,7 @@ ul {
   position: absolute;
   height: 20px;
   width: 20px;
-  background-image: url(/images/bullet.svg);
+  background-image: url(../images/bullet.svg);
   background-size: contain;
   margin-right: 0.5em;
   left: -1.5em;
