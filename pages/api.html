@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherCast</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../WeatherCast-Website-Project/css/main.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a class="logo" href="../WeatherCast-Website-Project/index.html"
+          >Weather<span>Cast</span></a
+        >
+
+        <img
+          id="mobile-cta"
+          class="mobile-menu"
+          src="../WeatherCast-Website-Project/images/menu.svg"
+          alt="Open-navigation"
+        />
+
+        <nav>
+          <img
+            id="mobile-exit"
+            class="mobile-menu-exit"
+            src="../WeatherCast-Website-Project/images/exit.svg"
+            alt="Close Navigation"
+          />
+          <ul class="primary-nav">
+            <li class="current">
+              <a href="../WeatherCast-Website-Project/index.html">Home</a>
+            </li>
+            <li><a href="#features">Feature</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="secondary-nav">
+            <li class="current"><a href="../pages/api.html">API</a></li>
+            <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="left-col">
+          <p class="subhead">Try it for free</p>
+          <h1>Complete your Solution with Our Weather API</h1>
+          <div class="hero-cta">
+            <a href="#" class="primary-cta">14-day Free Trial</a>
+            <a href="#" class="API_info">Or check Our Subscription plans 🔹</a>
+          </div>
+        </div>
+        <img
+          class="api-hero"
+          src="../WeatherCast-Website-Project/images/Api_hero.webp"
+          alt="hero-img"
+        />
+      </div>
+    </section>
+
+    <section id="api-features" class="api-features">
+      <div class="card">
+        <img
+          src="../WeatherCast-Website-Project/images/Api/current-conditions.svg"
+          alt=""
+        />
+        <h2>Current Conditions</h2>
+        <p>
+          Current weather conditions for a specific location around the globe
+          including:
+        </p>
+        <ul>
+          <li>Icon Codes and Weather Text</li>
+          <li>Night or day icon</li>
+          <li>Temperature - Celsius or Fahrenheit</li>
+          <li>“Feels Like” Temperature</li>
+          <li>Humidity</li>
+          <li>Wind</li>
+          <li>Pressure</li>
+          <li>Visibility</li>
+          <li>Dew</li>
+          <li>Cloud Cover</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img
+          src="../WeatherCast-Website-Project/images/Api/hourly-forecast.svg"
+          alt=""
+        />
+        <h2>Hourly Forecast</h2>
+        <p>
+          Includes hourly forecasts for a specific location. Each forecast
+          includes the different data fields, for a maximum of 120 hours (5
+          days).
+        </p>
+        <ul>
+          <li>Temperature - Celsius or Fahrenheit</li>
+          <li>“Feels Like” Temperature</li>
+          <li>Humidity</li>
+          <li>Precipitation</li>
+          <li>Wind</li>
+          <li>Pressure</li>
+          <li>Visibility</li>
+          <li>Dew</li>
+          <li>Cloud Cover</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img
+          src="../WeatherCast-Website-Project/images/Api/daily-forecast.svg"
+          alt=""
+        />
+        <h2>Daily Forecast</h2>
+        <p>
+          Includes daily and future weather forecasts for a specific location.
+          Each forecast includes the below data fields for a maximum of five
+          days of daily forecasts.
+        </p>
+        <ul>
+          <li>Sun Sunrise and sunset times for a 24 hour period.</li>
+          <li>
+            Moon Lunar data (moon rise, moon set, etc.) for a 24 hour period.
+          </li>
+          <li>UV Maximum UV index (1-16) at ground level</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="author">
+      Visit my Github -
+      <a href="https://github.com/Spocky95" target="_blank"
+        >https://github.com/Spocky95</a
+      >
+    </div>
+
+    <script>
+      const mobileBtn = document.getElementById("mobile-cta");
+      const nav = document.querySelector("nav");
+      const mobileBtnExit = document.getElementById("mobile-exit");
+
+      mobileBtn.addEventListener("click", () => {
+        nav.classList.add("menu-btn");
+      });
+
+      mobileBtnExit.addEventListener("click", () => {
+        nav.classList.remove("menu-btn");
+      });
+    </script>
+  </body>
+</html>
