@@ -89,7 +89,7 @@ ul {
   border-radius: 2em;
   display: inline-block;
 }
-.hero .left-col .API_info .watch-video-cta {
+.hero .left-col .API_info .watch-video-cta .hero-cta {
   display: block;
   margin-top: 0.3em;
 }
