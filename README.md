@@ -1,18 +1,16 @@
 # WeatherCast
-A simple webpage representing weather application.
+
+
 <img src="https://raw.githubusercontent.com/Spocky95/WeatherCast-Website-Project/main/WeatherCast-Hero.png" align="right"
-     alt="WeatherCast-HeroSection" width="325">
+     alt="WeatherCast-HeroSection" width="275">
+A simple website representing weather application, It was developed as part of the training for building basic websites.
 <p>👉https://spocky95.github.io/WeatherCast-Website-Project/
 
-## Table of content.
-* 
-* 
-* 
 
 ## Tools used in project.
-* 
-* 
-* 
+* HTML
+* SCSS/CSS
+* JS
 
 ## Tools used for code validation.
 * 
