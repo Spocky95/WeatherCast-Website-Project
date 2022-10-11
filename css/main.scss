@@ -308,6 +308,9 @@ nav.menu-btn {
 }
 
 //API Page
+// .api-features {
+// }
+
 .card {
     text-align: center;
     background-color: white;
@@ -316,10 +319,7 @@ nav.menu-btn {
     border-style: solid;
     margin: 5em auto;
     max-width: 500px;
-
-
     
-
     img {
         margin-top: 2em;
         width: 20%;
@@ -339,7 +339,12 @@ nav.menu-btn {
 
         }
     }
-    
+
+}
+
+.scroll-button {
+    display: none;
+
 }
 
 @media only screen and (min-width: 800px) {
@@ -486,7 +491,30 @@ nav.menu-btn {
         }
     }
 
+    // .scroll-button {
+    //     display: block;
+    //     position: fixed;
+    //     bottom: 1em;
+    //     right: 1em;
+    //     border-radius: 5em;
+    //     width: 5em;
+    //     height: 5em;
+    //     border: #20272E .1em solid;
 
+    //     .back-button-img {
+    //         max-width: 4em;
+    //     }
+        
+    // }
+
+    .api-features {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card { 
+        width: 30%;
+        margin: 5em 3em;
+    }
   }
 
 

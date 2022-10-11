@@ -276,6 +276,10 @@ nav.menu-btn {
   padding: 0.5em 0.5em;
 }
 
+.scroll-button {
+  display: none;
+}
+
 @media only screen and (min-width: 800px) {
   .mobile-menu, .mobile-menu-exit {
     display: none;
@@ -382,5 +386,13 @@ nav.menu-btn {
   .testimonials-section ul li {
     margin: 0 2em;
     max-width: 15em;
+  }
+  .api-features {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    width: 30%;
+    margin: 5em 3em;
   }
 }/*# sourceMappingURL=main.css.map */
