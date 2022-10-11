@@ -276,6 +276,28 @@ nav.menu-btn {
   padding: 0.5em 0.5em;
 }
 
+.customer-section .customers-start h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 0;
+}
+.customer-section .customers-start hr {
+  max-width: 50%;
+}
+.customer-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+.customer-section ul li img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: bottom;
+  padding: 5em 3em;
+}
+
 .scroll-button {
   display: none;
 }

@@ -311,6 +311,8 @@ nav.menu-btn {
 // .api-features {
 // }
 
+
+
 .card {
     text-align: center;
     background-color: white;
@@ -342,10 +344,43 @@ nav.menu-btn {
 
 }
 
+.customer-section {
+    .customers-start    {
+
+        h1  {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        hr {
+            max-width: 50%;
+        }
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-inline-start: 0px;
+
+        li {
+
+            img {
+                object-fit: cover;
+                vertical-align: bottom;
+                padding: 5em 3em;
+            }
+        }
+    }
+}
+
+
 .scroll-button {
     display: none;
 
 }
+
+
 
 @media only screen and (min-width: 800px) {
 
