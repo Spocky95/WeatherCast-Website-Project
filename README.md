@@ -10,14 +10,14 @@ A simple website representing weather application, It was developed as part of t
 ## Tools used in project.
 * HTML
 * SCSS/CSS
-* JS
+* Simple JS
 
 ## Tools used for code validation.
 * 
 * 
 * 
 
-All images used in project was provided with free license.
+## All images used in project was provided with free license.
 
 Image Sources:
 * https://pl.wikipedia.org/wiki/Huragan_Matthew
