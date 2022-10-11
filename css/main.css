@@ -410,7 +410,7 @@ nav.menu-btn {
   }
   .api-features {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   .card {
     width: 30%;
