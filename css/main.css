@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: "Franklin Gothic Medium", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #F2F2F2;
   margin: 0;
   width: 100%;
@@ -89,9 +89,8 @@ ul {
   border-radius: 2em;
   display: inline-block;
 }
-.hero .left-col .API_info .watch-video-cta .hero-cta {
-  display: block;
-  margin-top: 0.3em;
+.hero .primary-cta {
+  margin-bottom: 0.3em;
 }
 .hero img {
   margin-top: 2em;

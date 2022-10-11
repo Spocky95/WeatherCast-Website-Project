@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family:'Franklin Gothic Medium',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: $secondary-color;
     margin: 0;
     width: 100%;
@@ -105,10 +105,10 @@ ul {
             //text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
         }
         //API Page
-        .API_info .watch-video-cta .hero-cta {
-            display: block;
-            margin-top: .3em;
-        }
+    }
+    
+    .primary-cta {
+          margin-bottom: .3em;      
     }
 
     img {
