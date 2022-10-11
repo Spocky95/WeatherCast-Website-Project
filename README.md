@@ -1,12 +1,26 @@
-# WeatherCast-Website-Project
+# WeatherCast
+A simple webpage representing weather application.
+<img src="https://raw.githubusercontent.com/Spocky95/WeatherCast-Website-Project/main/WeatherCast-Hero.png" align="right"
+     alt="WeatherCast-HeroSection" width="325">
+<p>👉https://spocky95.github.io/WeatherCast-Website-Project/
 
-A simple page representing weather application.
-https://spocky95.github.io/WeatherCast-Website-Project/
+## Table of content.
+* 
+* 
+* 
 
-<img src="https://raw.githubusercontent.com/Spocky95/WeatherCast-Website-Project/main/WeatherCast-Hero.png" width="525" height="819" float: right;>
+## Tools used in project.
+* 
+* 
+* 
 
+## Tools used for code validation.
+* 
+* 
+* 
 
-All used images provided with free license.
+All images used in project was provided with free license.
+
 Image Sources:
 * https://pl.wikipedia.org/wiki/Huragan_Matthew
 * https://www.freepik.com/
