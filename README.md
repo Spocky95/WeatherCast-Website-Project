@@ -8,6 +8,8 @@ Project is scalable for variable screen resolutions and adaptable for mobile dev
 <p>👉https://spocky95.github.io/WeatherCast-Website-Project/
 
 
+
+
 ## Tools used in project.
 * HTML
 * SCSS/CSS
