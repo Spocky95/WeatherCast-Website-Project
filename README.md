@@ -2,7 +2,7 @@
 
 
 <img src="https://raw.githubusercontent.com/Spocky95/WeatherCast-Website-Project/main/WeatherCast-Hero.png" align="right"
-     alt="WeatherCast-HeroSection" width="275">
+     alt="WeatherCast-HeroSection" width="275" target="_blank">
 A simple website representing weather application, It was developed as part of the training for building basic websites.
 Project is scalable for variable screen resolutions and adaptable for mobile devices.
 <p>👉https://spocky95.github.io/WeatherCast-Website-Project/
