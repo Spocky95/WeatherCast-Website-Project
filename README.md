@@ -26,11 +26,13 @@ Project is scalable for variable screen resolutions and adaptable for mobile dev
      * Contact Sesion
      
      
-     
-## Tools used for code validation.
-* 
-* 
-* 
+## Tools used for validation.
+* [WebPageTest](https://www.webpagetest.org/)
+     * [Webpage Performance Test Result](https://www.webpagetest.org/result/221012_AiDc53_A4P/)
+     * [Mobile Performance Test Result](https://www.webpagetest.org/result/221012_AiDc5M_A8J/)
+* [BrowserStack](https://www.browserstack.com/) - Physical devices tests
+     * https://live.browserstack.com/dashboard#os=iOS&os_version=16.0&device_browser=safari&zoom_to_fit=true&full_screen=true&url=https%3A%2F%2Fspocky95.github.io%2FWeatherCast-Website-Project%2F&speed=1
+     * https://live.browserstack.com/dashboard#os=android&os_version=8.0&device=Samsung+Galaxy+S9+Plus&device_browser=chrome&zoom_to_fit=true&full_screen=true&url=https%3A%2F%2Fspocky95.github.io%2FWeatherCast-Website-Project%2Fpages%2Fapi.html&speed=1
 
 ## All images used in project was provided with free license.
 
