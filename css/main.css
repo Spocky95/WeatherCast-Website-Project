@@ -12,6 +12,7 @@ body {
 }
 
 .author {
+  padding: 1em 1em;
   text-align: center;
   background-color: #20272E;
   color: white;
